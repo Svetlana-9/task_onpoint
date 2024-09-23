@@ -1,0 +1,179 @@
+.first-page {
+  position: relative;
+  display: flex;
+  height: 100%;
+  background-image: url("./img/FirstPage/BgFirstPage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.spermBlurry {
+  position: absolute;
+  left: -170px;
+  top: 530px;
+  transform: scale(0.5);
+  z-index: 1;
+}
+
+.bacterium1 {
+  position: absolute;
+  transform: scale(0.5);
+  z-index: 1;
+  animation-name: bacterium1;
+  animation-iteration-count: infinite;
+  animation-duration: 9s;
+}
+
+@keyframes bacterium1 {
+  0% {
+    top: 460px;
+    left: -20px;
+  }
+  25% {
+    top: 440px;
+    left: -40px;
+  }
+  75% {
+    top: 490px;
+    left: -10px;
+  }
+  100% {
+    top: 460px;
+    left: -20px;
+  }
+}
+
+.txt {
+  position: absolute;
+  left: 60px;
+  top: 145px;
+  z-index: 2;
+}
+
+.helloTxt {
+  letter-spacing: 0.5px;
+  font-size: 33px;
+  font-family: "DINPro";
+  color: rgb(36, 36, 36);
+  text-transform: uppercase;
+  margin: 0;
+}
+.title {
+  font-size: 115px;
+  letter-spacing: 0.5px;
+  font-family: "GilroyLight";
+  color: rgb(23, 23, 23);
+  text-transform: uppercase;
+  line-height: 1.073;
+  margin: 0;
+}
+
+.not {
+  font-weight: 900;
+}
+
+.buttonWhatNext {
+  position: absolute;
+  transform: scale(0.5);
+  top: 270px;
+  left: 400px;
+  z-index: 3;
+}
+
+.sperm {
+  position: absolute;
+  transform: scale(0.5);
+  z-index: 3;
+  left: 70px;
+  top: -60px;
+}
+
+.virus1 {
+  position: absolute;
+  z-index: 2;
+  animation-name: virus1;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+}
+
+@keyframes virus1 {
+  0% {
+    transform: scale(0.5);
+    top: 433px;
+    left: 345px;
+  }
+  50% {
+    transform: scale(0.6);
+    top: 421px;
+    left: 345px;
+  }
+  100% {
+    transform: scale(0.5);
+    top: 433px;
+    left: 345px;
+  }
+}
+
+.bacteriumBlurry1 {
+  position: absolute;
+  top: 450px;
+  left: 230px;
+  transform: scale(0.5);
+  z-index: 2;
+}
+
+.bacteriumBlurry2 {
+  position: absolute;
+  transform: scale(0.5);
+  top: -150px;
+  left: 820px;
+  z-index: 2;
+}
+
+.virus2 {
+  position: absolute;
+  transform: scale(0.5);
+  z-index: 2;
+  animation-name: virus2;
+  animation-iteration-count: infinite;
+  animation-duration: 9s;
+}
+
+@keyframes virus2 {
+  0% {
+    top: -25px;
+    left: 730px;
+  }
+  25% {
+    top: -45px;
+    left: 700px;
+  }
+  50% {
+    top: -55px;
+    left: 715px;
+  }
+  75% {
+    top: -40px;
+    left: 740px;
+  }
+  100% {
+    top: -25px;
+    left: 730px;
+  }
+}
+
+.bacillus {
+  position: absolute;
+  transform: scale(0.5);
+  top: -140px;
+  left: -125px;
+  z-index: 2;
+}
+
+.bacterium2 {
+  position: absolute;
+  transform: scale(0.5);
+  left: 650px;
+  top: -120px;
+  z-index: 2;
+}

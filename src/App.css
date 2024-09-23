@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+.app {
+  overflow-y: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home-panel {
+  position: fixed;
+  transform: scale(0.6);
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.buttonHome {
+  position: absolute;
+  top: 35px;
+  left: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.line {
+  position: absolute;
+  top: 27px;
+  left: 180px;
+}
+
+.project {
+  font-size: 40px;
+  font-family: "DinPro";
+  color: rgb(39, 39, 39);
+  text-transform: uppercase;
+  position: absolute;
+  top: 35px;
+  left: 220px;
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.logo {
+  position: fixed;
+  top: 740px;
+  left: 50px;
+  transform: scale(0.6);
+  z-index: 8;
+}
+
+.slider {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
 
-.App-link {
-  color: #61dafb;
+.slider::-webkit-scrollbar {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slider-section {
+  width: 100vw;
+  min-width: 100vw;
+  height: 100vh;
+  scroll-snap-align: start;
+  position: relative;
+  overflow: hidden;
 }

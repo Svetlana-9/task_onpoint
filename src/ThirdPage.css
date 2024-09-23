@@ -1,0 +1,415 @@
+.third-page {
+  position: relative;
+  display: flex;
+  height: 100%;
+  background-image: url("./img/ThirdPage/BgThirdPage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bottle {
+  position: absolute;
+  transform: scale(0.5);
+  z-index: 7;
+  top: -265px;
+  left: -70px;
+}
+
+.bubble1 {
+  position: absolute;
+  z-index: 8;
+  transform: scale(0.55);
+  animation-name: bubble1;
+  animation-duration: 9s;
+  animation-iteration-count: infinite;
+}
+@keyframes bubble1 {
+  0% {
+    top: 520px;
+    left: -15px;
+  }
+  25% {
+    top: 490px;
+    left: -35px;
+  }
+  50% {
+    top: 520px;
+    left: -15px;
+  }
+  75% {
+    top: 550px;
+    left: 5px;
+  }
+  100% {
+    top: 520px;
+    left: -15px;
+  }
+}
+
+.bubble2 {
+  z-index: 8;
+  position: absolute;
+  transform: scale(0.55);
+  animation-name: bubble2;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+@keyframes bubble2 {
+  0% {
+    top: 430px;
+    left: -5px;
+  }
+  30% {
+    top: 400px;
+    left: -15px;
+  }
+  60% {
+    top: 460px;
+    left: 20px;
+  }
+  100% {
+    top: 430px;
+    left: -5px;
+  }
+}
+.bubble3 {
+  position: absolute;
+  z-index: 8;
+  top: 667px;
+  left: 100px;
+  animation-name: bubble3;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes bubble3 {
+  0% {
+    transform: scale(0.55);
+    top: 667px;
+    left: 100px;
+  }
+  50% {
+    transform: scale(0.7);
+    top: 657px;
+    left: 100px;
+  }
+  100% {
+    transform: scale(0.55);
+    top: 667px;
+    left: 100px;
+  }
+}
+.bubble4 {
+  position: absolute;
+  transform: scale(0.55);
+  z-index: 8;
+  animation-name: bubble4;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bubble4 {
+  0% {
+    top: 120px;
+    left: 140px;
+  }
+  50% {
+    top: 160px;
+    left: 180px;
+  }
+  100% {
+    top: 120px;
+    left: 140px;
+  }
+}
+
+.bubble5 {
+  position: absolute;
+  transform: scale(0.55);
+  z-index: 6;
+  animation-name: bubble5;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes bubble5 {
+  0% {
+    transform: scale(0.55);
+    top: 550px;
+    left: 205px;
+  }
+  50% {
+    transform: scale(0.6);
+    top: 550px;
+    left: 255px;
+  }
+  100% {
+    transform: scale(0.55);
+    top: 550px;
+    left: 205px;
+  }
+}
+.bubble6 {
+  position: absolute;
+  transform: scale(0.55);
+  z-index: 6;
+  top: 45px;
+  left: 175px;
+  animation-name: bubble6;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+@keyframes bubble6 {
+  0% {
+    top: 45px;
+    left: 175px;
+  }
+  20% {
+    top: 60px;
+    left: 190px;
+  }
+  50% {
+    top: 45px;
+    left: 175px;
+  }
+  75% {
+    top: 35px;
+    left: 190px;
+  }
+  100% {
+    top: 45px;
+    left: 175px;
+  }
+}
+.bubble7 {
+  position: absolute;
+  z-index: 6;
+  top: 260px;
+  left: 130px;
+  animation-name: bubble7;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bubble7 {
+  0% {
+    transform: scale(0.55);
+  }
+  50% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(0.55);
+  }
+}
+.bubble8 {
+  position: absolute;
+  transform: scale(0.55);
+  z-index: 6;
+  animation-name: bubble8;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes bubble8 {
+  0% {
+    top: 190px;
+    left: 60px;
+  }
+  50% {
+    top: 195px;
+    left: 90px;
+  }
+  100% {
+    top: 190px;
+    left: 60px;
+  }
+}
+.blockText {
+  top: 160px;
+  left: 360px;
+  text-transform: uppercase;
+  position: absolute;
+  color: rgb(36, 36, 36);
+  margin: 0;
+  z-index: 1;
+}
+
+.title3 {
+  font-size: 35px;
+  font-family: "DINPro";
+  margin: 0;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.brand {
+  font-size: 100px;
+  font-family: "Gilroy";
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 8px;
+}
+
+.textBlock1 {
+  position: absolute;
+  transform: scale(0.5);
+  z-index: 1;
+  left: -200px;
+}
+
+.iconTextBlock1 {
+  position: absolute;
+  transform: scale(0.55);
+  top: 305px;
+  left: 330px;
+  z-index: 2;
+}
+
+.textBlock2 {
+  position: absolute;
+  transform: scale(0.5);
+  z-index: 1;
+  left: 355px;
+  top: 55px;
+}
+
+.iconTextBlock2 {
+  position: absolute;
+  transform: scale(0.55);
+  top: 315px;
+  left: 710px;
+  z-index: 2;
+}
+
+.buttonMore {
+  position: absolute;
+  transform: scale(0.5);
+  top: 515px;
+  left: 570px;
+  z-index: 2;
+}
+
+.textForBlock1 {
+  font-size: 27px;
+  letter-spacing: 1px;
+  font-family: "GilroyLight";
+  color: rgb(46, 46, 46);
+  position: absolute;
+  z-index: 2;
+  width: 250px;
+  top: 380px;
+  left: 360px;
+}
+
+.textForBlock2 {
+  font-size: 27px;
+  letter-spacing: 1px;
+  font-family: "GilroyLight";
+  color: rgb(46, 46, 46);
+  position: absolute;
+  z-index: 2;
+  width: 200px;
+  top: 380px;
+  left: 750px;
+}
+
+.advantages {
+  display: none;
+}
+.bgAdvantages {
+  position: absolute;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.bodyAdvantages {
+  position: absolute;
+  transform: scale(0.5);
+  top: -160px;
+  left: -265px;
+  z-index: 3;
+}
+
+.blockAdvantages {
+  top: 160px;
+  left: 360px;
+  position: absolute;
+  color: rgb(36, 36, 36);
+  margin: 0;
+  z-index: 4;
+}
+
+.buttonClose {
+  position: absolute;
+  transform: scale(0.5);
+  top: -20px;
+  left: 520px;
+}
+
+.textAdvantages {
+  position: absolute;
+  margin: 0;
+}
+
+.text {
+  font-size: 23px;
+  letter-spacing: 1px;
+  font-family: "GilroyLight";
+  color: rgb(46, 46, 46);
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.number {
+  font-family: "GilroyLight";
+  color: rgb(140, 201, 232);
+  font-weight: bold;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.xy {
+  font-weight: 900;
+}
+
+.buttonBack {
+  position: absolute;
+  transform: scale(0.6);
+  top: 320px;
+}
+
+.buttonNext {
+  position: absolute;
+  transform: scale(0.6);
+  top: 320px;
+  left: 70px;
+}
+
+.textAdvantagesPage2 {
+  background-color: white;
+  position: absolute !important;
+  z-index: 5;
+  display: none;
+}
+.circle {
+  border-radius: 50%;
+  background-color: rgb(252, 109, 169);
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 329px;
+  left: 25px;
+  z-index: 4;
+}
+.circle2 {
+  border: solid 3px rgb(0, 0, 0);
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 329px;
+  left: 50px;
+  width: 12px;
+  height: 12px;
+  z-index: 4;
+  box-sizing: border-box;
+}
