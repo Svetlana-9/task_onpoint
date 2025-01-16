@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   height: 100%;
-  background-image: url("./img/SecondPage/BgSecondPage.png");
+  background-image: url("../img/SecondPage/BgSecondPage.png");
   background-size: cover;
   background-repeat: no-repeat;
 }

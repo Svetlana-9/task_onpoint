@@ -1,8 +1,8 @@
 import "./App.css";
 import React from "react";
-import FirstPage from "./FirstPage";
-import SecondPage from "./SecondPage";
-import ThirdPage from "./ThirdPage";
+import FirstPage from "./Pages/FirstPage";
+import SecondPage from "./Pages/SecondPage";
+import ThirdPage from "./Pages/ThirdPage";
 import home from "./img/Global/Home.png";
 import line from "./img/Global/Line.png";
 import logo from "./img/Global/logo.png";

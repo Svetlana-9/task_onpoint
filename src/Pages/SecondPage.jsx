@@ -1,9 +1,9 @@
 import "./SecondPage.css";
-import sperm1 from "./img/SecondPage/Sperm 1.png";
-import sperm2 from "./img/SecondPage/Sperm 2.png";
-import sperm3 from "./img/SecondPage/Sperm 3.png";
-import sperm4 from "./img/SecondPage/Sperm 4.png";
-import sperm5 from "./img/SecondPage/Sperm 5.png";
+import sperm1 from "../img/SecondPage/Sperm 1.png";
+import sperm2 from "../img/SecondPage/Sperm 2.png";
+import sperm3 from "../img/SecondPage/Sperm 3.png";
+import sperm4 from "../img/SecondPage/Sperm 4.png";
+import sperm5 from "../img/SecondPage/Sperm 5.png";
 import { useInView } from "react-intersection-observer";
 import classNames from "classnames";
 

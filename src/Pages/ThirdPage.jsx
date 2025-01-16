@@ -1,23 +1,23 @@
 import "./ThirdPage.css";
-import bottle from "./img/ThirdPage/Bottle.png";
-import bubble1 from "./img/ThirdPage/Bubble 1.png";
-import bubble2 from "./img/ThirdPage/Bubble 2.png";
-import bubble3 from "./img/ThirdPage/Bubble 3.png";
-import bubble4 from "./img/ThirdPage/Bubble 4.png";
-import bubble5 from "./img/ThirdPage/Bubble 5.png";
-import bubble6 from "./img/ThirdPage/Bubble 6.png";
-import bubble7 from "./img/ThirdPage/Bubble 7.png";
-import bubble8 from "./img/ThirdPage/Bubble 8.png";
-import textBlock1 from "./img/ThirdPage/TextBlock 1.png";
-import iconTextBlok1 from "./img/ThirdPage/IconTextBlock 1.png";
-import textBlock2 from "./img/ThirdPage/TextBlock 2.png";
-import iconTextBlok2 from "./img/ThirdPage/IconTextBlock 2.png";
-import buttonMore from "./img/ThirdPage/ButtonMore.png";
-import blockAdvantages from "./img/ThirdPage/BlockAdvantages.png";
-import buttonClose from "./img/ThirdPage/ButtonClose.png";
-import bgAdvantages from "./img/ThirdPage/BgAdvantages.png";
-import buttonNext from "./img/ThirdPage/ButtonNext.png";
-import buttonBack from "./img/ThirdPage/ButtonBack.png";
+import bottle from "../img/ThirdPage/Bottle.png";
+import bubble1 from "../img/ThirdPage/Bubble 1.png";
+import bubble2 from "../img/ThirdPage/Bubble 2.png";
+import bubble3 from "../img/ThirdPage/Bubble 3.png";
+import bubble4 from "../img/ThirdPage/Bubble 4.png";
+import bubble5 from "../img/ThirdPage/Bubble 5.png";
+import bubble6 from "../img/ThirdPage/Bubble 6.png";
+import bubble7 from "../img/ThirdPage/Bubble 7.png";
+import bubble8 from "../img/ThirdPage/Bubble 8.png";
+import textBlock1 from "../img/ThirdPage/TextBlock 1.png";
+import iconTextBlok1 from "../img/ThirdPage/IconTextBlock 1.png";
+import textBlock2 from "../img/ThirdPage/TextBlock 2.png";
+import iconTextBlok2 from "../img/ThirdPage/IconTextBlock 2.png";
+import buttonMore from "../img/ThirdPage/ButtonMore.png";
+import blockAdvantages from "../img/ThirdPage/BlockAdvantages.png";
+import buttonClose from "../img/ThirdPage/ButtonClose.png";
+import bgAdvantages from "../img/ThirdPage/BgAdvantages.png";
+import buttonNext from "../img/ThirdPage/ButtonNext.png";
+import buttonBack from "../img/ThirdPage/ButtonBack.png";
 
 export default function ThirdPage() {
   const onClickButtonMore = () => {

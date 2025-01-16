@@ -1,13 +1,13 @@
-import spermBlurry from "./img/FirstPage/SpermBlurry.png";
-import bacterium1 from "./img/FirstPage/Bacterium 1.png";
-import buttonWhatNext from "./img/FirstPage/ButtonWhatNext.png";
-import sperm from "./img/FirstPage/Sperm.png";
-import virus1 from "./img/FirstPage/Virus 1.png";
-import bacteriumBlurry1 from "./img/FirstPage/BacteriumBlurry 1.png";
-import bacteriumBlurry2 from "./img/FirstPage/BacteriumBlurry 2.png";
-import virus2 from "./img/FirstPage/Virus 2.png";
-import bacillus from "./img/FirstPage/Bacillus.png";
-import bacterium2 from "./img/FirstPage/Bacterium 2.png";
+import spermBlurry from "../img/FirstPage/SpermBlurry.png";
+import bacterium1 from "../img/FirstPage/Bacterium 1.png";
+import buttonWhatNext from "../img/FirstPage/ButtonWhatNext.png";
+import sperm from "../img/FirstPage/Sperm.png";
+import virus1 from "../img/FirstPage/Virus 1.png";
+import bacteriumBlurry1 from "../img/FirstPage/BacteriumBlurry 1.png";
+import bacteriumBlurry2 from "../img/FirstPage/BacteriumBlurry 2.png";
+import virus2 from "../img/FirstPage/Virus 2.png";
+import bacillus from "../img/FirstPage/Bacillus.png";
+import bacterium2 from "../img/FirstPage/Bacterium 2.png";
 import "./FirstPage.css";
 
 export default function FirstPage(props) {
